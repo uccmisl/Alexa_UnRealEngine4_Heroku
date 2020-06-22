@@ -1,0 +1,88 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "unreal rpg",
+            "intents": [
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "ConnectToGameIntent",
+                    "slots": [
+                        {
+                            "name": "gameID",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "Connect to {gameID} "
+                    ]
+                },
+                {
+                    "name": "DisconnectFromGameIntent",
+                    "slots": [],
+                    "samples": [
+                        "Disconnect"
+                    ]
+                },
+                {
+                    "name": "CastAbilityIntent",
+                    "slots": [
+                        {
+                            "name": "ability",
+                            "type": "Ability"
+                        }
+                    ],
+                    "samples": [
+                        "Cast {ability}",
+                        "{ability}"
+                    ]
+                },
+                {
+                    "name": "OpenInventoryIntent",
+                    "slots": [],
+                    "samples": [
+                        "Inventory",
+                        "Open Inventory"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "Ability",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Pillar of fire"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Fireball"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Rage"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Heal"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
