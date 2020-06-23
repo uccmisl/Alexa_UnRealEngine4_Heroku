@@ -15,4 +15,7 @@ The project is broken into three distinct elements, with each element having its
 
 While there is no mandatory element to do first, I would advise you start with Heroku, then UnReal, and finally Alexa.  There can be overlap between them, but nothing overly complex.
 
+## Video demo
+[YouTube](https://www.youtube.com/watch?v=ZYioc3fwX08)
+
 Have fun :)
